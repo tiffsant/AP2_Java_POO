@@ -5,21 +5,25 @@ Este repositório contém a implementação de um sistema simples de gerenciamen
 **Requisitos:**
 
 **Veículo (classe abstrata)**
+
 **Atributos:**
 - marca
 - modelo
 - ano (privado, com getter e setter)
+
 **Método abstrato:**
 - informacoesVeiculo() → retorna os dados do veículo.
 
 **Carro**
 - Herda de Veiculo.
+
 **Atributo adicional:**
 - numeroPortas
 - Implementa informacoesVeiculo() mostrando todos os dados do carro, incluindo número de portas.
 
 **Moto**
 - Herda de Veiculo.
+
 **Atributo adicional:**
 - cilindrada (privado, com getter e setter)
 - Implementa informacoesVeiculo() mostrando todos os dados da moto, incluindo cilindrada.
